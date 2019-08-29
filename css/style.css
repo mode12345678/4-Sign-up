@@ -1,12 +1,22 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
 body {
     background-color: aquamarine;
 }
 .container {
-    display: block;
+    display: inline-block;
     width: 1000px;
     height: 200px; 
-    margin-left: calc ( (100% - 1000px) / 2);
+    margin-left: calc( (100% - 1000px) / 2);
     margin-top: 80px;
+    background-color: red;
+
 }
 
 .left-side {
@@ -21,4 +31,20 @@ body {
     display: inline-block;
     width: 60%;
     float: left;
-    background-color: red;
+    background-color: white;
+    padding: 80px;
+    font-size: 20px;
+}
+
+form {
+
+}
+form > .form-row{
+
+}
+form > .form-row > label {
+
+}
+form > .form-row > input {
+
+}
